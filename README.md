@@ -38,5 +38,7 @@ The exam pass bar is **200** points, so reaching it requires going beyond the ba
 
 ## Competition
 
-Enroll to the competition course:
+Submissions for the Machine Learning class are made on **ML-Arena**. Enroll to the competition course:
 https://ml-arena.com/enroll/1a0180287f664d289ae335bb6ff94928
+
+**Do not forget to add your Student ID** when submitting — otherwise your entry cannot be graded.
