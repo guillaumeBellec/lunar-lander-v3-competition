@@ -50,13 +50,7 @@ def main():
         model.train()
         optimizer.zero_grad()
         losses = model.loss_a2c(rollout, entropy_coef=args.entropy_coef, value_coef=args.value_coef)
-
-
-        ## TODO:
-        # Compute the action index using the model forward function:
-        # Implement the correct backpropagation step
-        raise NotImplementedError()
-
+        losses["loss"].backward()
         optimizer.step()
 
         if it % args.log_every == 0:
