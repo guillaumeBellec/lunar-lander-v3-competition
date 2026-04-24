@@ -6,6 +6,7 @@ ENV_KWARGS = dict(
     enable_wind=True,
     wind_power=12.0,
     turbulence_power=1.2,
+    max_episode_steps=1000,
 )
 
 
