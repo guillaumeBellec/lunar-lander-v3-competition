@@ -23,7 +23,7 @@ The starter code has three `TODO` blocks to fill in:
 After resolving the TODOs, training with
 
 ```bash
-uv run python train.py --n_iterations=5000    # ~20 min
+uv run python train.py --n_iterations=50000    # ~20 min
 ```
 
 should reach **50–100** points on average, the exam pass bar is **150** points.
