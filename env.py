@@ -2,10 +2,10 @@ import gymnasium as gym
 
 ENV_KWARGS = dict(
     continuous=False,
-    gravity=-7.5,
+    gravity=-9.0,
     enable_wind=True,
-    wind_power=12.0,
-    turbulence_power=1.2,
+    wind_power=15.0,
+    turbulence_power=1.7,
     max_episode_steps=1000,
 )
 
