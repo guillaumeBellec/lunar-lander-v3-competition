@@ -26,7 +26,7 @@ After resolving the TODOs, training with
 uv run python train.py --n_iterations=50000    # ~20 min
 ```
 
-should reach **50–100** points on average, the exam pass bar is **150** points.
+should reach **50–100** points on average, the exam pass bar is **200** points.
 
 ## Submit your agent to the Competition
 
