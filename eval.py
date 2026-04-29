@@ -21,10 +21,10 @@ def run_episode(env, agent):
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--n_episodes", type=int, default=20)
-    p.add_argument("--render", action="store_true")
+    p.add_argument("--no_render", action="store_true")
     args = p.parse_args()
 
-    env = make_env(render_mode="human" if args.render else None)
+    env = make_env(render_mode="human" if not args.no_render else None)
     agent = Agent(env)
 
     returns = [run_episode(env, agent) for _ in range(args.n_episodes)]
