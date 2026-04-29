@@ -26,15 +26,7 @@ After resolving the TODOs, training with
 uv run python train.py --n_iterations=5000    # ~20 min
 ```
 
-should reach **50–100** points on average, and
-
-```bash
-uv run python train.py --n_iterations=25000   # ~2 h
-```
-
-should reach **~150** points.
-
-The exam pass bar is **200** points, so reaching it requires going beyond the baseline A2C (e.g. longer training, tuning, or algorithmic improvements).
+should reach **50–100** points on average, the exam pass bar is **150** points.
 
 ## Submit your agent to the Competition
 
