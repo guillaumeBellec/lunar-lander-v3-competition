@@ -36,9 +36,9 @@ should reach **~150** points.
 
 The exam pass bar is **200** points, so reaching it requires going beyond the baseline A2C (e.g. longer training, tuning, or algorithmic improvements).
 
-## Competition
+## Submit your agent to the Competition
 
 Submissions for the Machine Learning class are made on **ML-Arena**. Enroll to the competition course:
 https://ml-arena.com/enroll/1a0180287f664d289ae335bb6ff94928
 
-**Do not forget to add your Student ID** when submitting — otherwise your entry cannot be graded.
+
