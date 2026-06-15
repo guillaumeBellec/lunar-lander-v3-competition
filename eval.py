@@ -25,7 +25,7 @@ def main():
     args = p.parse_args()
 
     env = make_env(render_mode="human" if not args.no_render else None)
-    agent = Agent(env)
+    agent = Agent(env.observation_space, env.action_space)
 
     returns = [run_episode(env, agent) for _ in range(args.n_episodes)]
     env.close()

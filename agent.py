@@ -6,9 +6,13 @@ from rl_model import RLModel
 
 
 class Agent:
-    def __init__(self, env=None, player_name=None):
+    def __init__(self, observation_space, action_space):
+        self.observation_space = observation_space
+        self.action_space = action_space
+
         path = "model.pt"
-        self.model = RLModel(obs_dim=8, num_actions=4)
+        self.model = RLModel(obs_dim=observation_space.shape[0],
+                             num_actions=action_space.n)
         if os.path.exists(path):
             self.model.load(path)
         self.model.eval()
